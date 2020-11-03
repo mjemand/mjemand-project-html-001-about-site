@@ -1,0 +1,66 @@
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: grey;
+    margin-top: 0;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+header h2 {
+    margin-top: 0;
+}
+.imgHeader {
+    margin: 1%;
+}
+
+.imgHome {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#works-section article {
+    border-bottom: solid 2px white;
+}
+
+#works-section article img {
+    width: 25%;
+    margin: 2%;
+}
+
+#works-section article .Works {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 600px) {
+    .works-section article img {
+        width: 100%;
+    }
+}
+.imgGallery {
+    display: inline-block;
+    width: 100%;
+}
+
+.imgGallery2 {
+    width: 30%;
+    margin: 1%;
+    box-shadow: 0 0 7px;
+}
+
+@media screen and (max-width: 600px) {
+    .imgGallery img {
+        width: 100%;
+    }
+}
+
+#imgAbout {
+    width: 30%;
+    margin: 1%
+}
